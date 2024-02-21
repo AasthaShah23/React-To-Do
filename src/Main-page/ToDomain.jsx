@@ -76,6 +76,8 @@ const ToDomain = () => {
     // console.log(reducedItem);
     localStorage.setItem("todo-lists", JSON.stringify([...reducedItem]));
     setAllToDos(reducedItem);
+    setTitle("");
+      setDescription("");
   };
 
   //delete list code ends
